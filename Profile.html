@@ -44,6 +44,48 @@
       color: #7c3aed;          /* text-violet-600 */
       font-size: 1.25rem;      /* text-xl */
     }
+
+    .text {
+      display: inline-block;
+      animation: fadeUp 0.6s ease-out both;
+      color: #e5e7eb;          /* text-gray-300 */
+      font-size: small;
+    }
+
+    /* Container */
+.skills-container {
+  max-width: 20rem; /* approx max-w-xs */
+  font-size: 0.2rem; /* text-sm */
+}
+
+/* Grid list */
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem; /* Add gap between items */
+}
+
+/* Button style */
+.skill-btn {
+  width: fit-content;
+  padding: 0.3rem 0.6rem;
+  background-color: #1f2933;
+  color: #ffffff;
+  border-radius: 0.75rem;
+  border-bottom: 3px solid #6366f1;
+  font-size: 0.7rem;
+  margin-top: 1.5rem;
+  cursor: default;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover animation */
+.skill-btn:hover {
+  transform: translateY(-4px) scale(1.1);
+}
   </style>
 
 </head>
@@ -137,10 +179,48 @@
             Full Stack Developer
           </p>
 
+          <span class="text-rotate">
+            <span>
+              <span class="text">I'm a Web developer building clean, responsive, high-performance applications. I use React and Next.js, turning
+                designs into scalable code. With 4 years experience of delivering scalable solutions at a young age.</span>
+            
+            </span>
+            </span>
+
+            <span class="skills-container">
+              <ul class="skills-list">
+                <li class="skill-btn">React.Js</li>
+                <li class="skill-btn">Next.Js</li>
+                <li class="skill-btn">Figma</li>
+                <li class="skill-btn">JAVA</li>
+                <li class="skill-btn">Firebase</li>
+              </ul>
+            </span>
+
         </div>
 
         <!--Right column-->
         <div class="flex-1 w-full max-w-xl animate-right">
+          <div className="rounded-xl cursor-none border w-full border-border border-white-900 bg-card/30 p-4 animate-pulse  animate-fade-up bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
+              <a
+                href="https://github.com/ThandululoNengovhela"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold block cursor-none"
+              >
+                @Thandululo-N
+                <span className="ml-2 font-light font-mono text-neutral-500 text-sm">
+                  • GitHub
+                </span>
+              </a>
+
+              <img
+                src="https://ghchart.rshah.org/7c3aed/ThandululoNengovhela"
+                alt="GitHub Contribution Graph"
+                className="mt-4 w-full rounded-lg "
+                loading="lazy"
+              />
+            </div>
 
         </div>
 

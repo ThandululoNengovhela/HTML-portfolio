@@ -1,0 +1,2 @@
+<span>Passionate about building fast, user-friendly web applications. I leverage React and Next.js to transform designs into reliable, scalable code. Four years of experience delivering impactful solutions at a young age.</span>
+              <span>I craft modern, efficient web applications that scale seamlessly. Skilled in React and Next.js, I turn concepts into maintainable code. Delivering robust solutions with four years of hands-on experience.</span>
